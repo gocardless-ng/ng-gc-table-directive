@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "main": "ng-gc-table-directive.js",
   "dependencies": {
-    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2"
+    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",
+    "ng-gc-click-when-directive": "git@github.com:gocardless-ng/ng-gc-click-when-directive.git",
+    "ng-gc-fragment-directive": "git@github.com:gocardless-ng/ng-gc-fragment-directive.git",
+    "ng-gc-th-sortable-directive": "git@github.com:gocardless-ng/ng-gc-th-sortable-directive.git"
   },
   "devDependencies": {
     "bower-angular-mocks": "git@github.com:angular/bower-angular-mocks.git#v1.2.0-rc.2",
@@ -13,7 +16,7 @@
   "ignore": [
     "**/.*",
     "src",
-    "*.spec.js",
+    "**/*spec.js",
     "node_modules",
     "components",
     "package.json",

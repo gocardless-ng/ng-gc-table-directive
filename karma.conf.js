@@ -20,10 +20,13 @@ module.exports = function(config) {
 
       // Vendor
       'components/bower-angular/angular.js',
+      'components/bower-angular-route/angular-route.js',
       'components/bower-angular-mocks/angular-mocks.js',
 
       // Specs helpers
       'components/jasmine-helpers/*.js',
+
+      'components/ng-gc*/**/*.js',
 
       // app & specs
       'src/**/*.js',
