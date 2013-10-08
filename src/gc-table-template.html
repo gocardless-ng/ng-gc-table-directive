@@ -25,7 +25,7 @@
         ng-repeat="column in columns"
         ng-hide="column.isHidden">
         <span gc-get-fragment="{{ options.fragmentPrefix }}tableBody:{{ column.field }}"
-          class="u-text-truncate u-inline-block"
+          class="u-text-truncate u-block"
           fragment-data="{ $row: row }">
           {{ row[column.field] }} <!-- FALLBACK -->
         </span>
